@@ -4,7 +4,6 @@ def my_each(arr)
          yield(arr[i])
       i+=1
     end
-  end
   return arr
 end
 # I don't know how it's passing the test!
