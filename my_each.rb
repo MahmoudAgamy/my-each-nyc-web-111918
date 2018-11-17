@@ -7,5 +7,5 @@ def my_each(arr)
       i+=1
     end
   end
-  return new_arr
+  return arr
 end
