@@ -3,10 +3,9 @@ def my_each(arr)
   if block_given?
     i = 0
     while i < arr.length
-        new_arr << yield(arr[i])
+        new_arr << (yield(arr[i]))
       i+=1
     end
-    return new_arr
   end
   return arr
 end
