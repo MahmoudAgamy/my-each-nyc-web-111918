@@ -5,9 +5,9 @@ def my_each(arr)
     while i < arr.length
       element = yield(arr[i])
       if element == ""
-        new_arr << yield(arr[i])
-      else
         new_arr << arr[i]
+      else
+        new_arr << yield(arr[i])
       end
       i+=1
     end
