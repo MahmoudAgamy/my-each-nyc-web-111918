@@ -7,7 +7,7 @@ def my_each(arr)
       i+=1
     end
   end
-  return arr
+  return new_arr
 end
 # I don't know how it's passing the test!
 # I should return the new_arr but when I do I've a problem with
